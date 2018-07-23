@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+
+  eventHandlers = {
+   onRecordingStart: {handler: () => {
+    console.log('recording started');
+  }},
+  onRecordingEnd: {handler: () => {
+    console.log('recording ended');
+   }}
+ };
+
+
 }

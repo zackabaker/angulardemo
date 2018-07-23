@@ -3,7 +3,7 @@ import recordingbtntutorialModule from '@haiku/zackabaker1-recordingbtntutorial/
 
 @Component({
   selector: 'app-abc',
-  templateUrl: './abc.component.html',
+  template: `<recordingbtntutorial [loop]="true"></recordingbtntutorial>`,
   styleUrls: ['./abc.component.css']
 })
 export class AbcComponent implements OnInit {

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AbcComponent } from './abc/abc.component';
-import recordingbtntutorialModule from '@haiku/zackabaker1-recordingbtntutorial/angular-module';
+import * as recordingbtntutorialModule from '@haiku/zackabaker1-recordingbtntutorial/code/main/angular-dom';
 
 @NgModule({
   declarations: [
@@ -13,6 +13,7 @@ import recordingbtntutorialModule from '@haiku/zackabaker1-recordingbtntutorial/
   imports: [
     BrowserModule,
     recordingbtntutorialModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
